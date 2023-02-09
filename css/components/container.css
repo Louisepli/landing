@@ -1,0 +1,25 @@
+.container {
+  width:100%;
+  margin: 0 auto;
+  max-width: 1000px;
+  color: white;
+  position: relative;
+}
+
+.button-primary {
+  background-color: #b00505d8;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 30px;
+}
+
+.container p {
+  color: #B2B2B2;
+  font-size: 20px;
+}
+
+
+.container h2 {
+  color: #b00505;
+  text-align: center;
+}

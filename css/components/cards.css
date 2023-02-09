@@ -1,0 +1,51 @@
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(255, 0, 0);
+  text-align: center;
+  padding: 20px;
+  transition: all .2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.cards {
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.card img {
+  width: 200px;
+}
+
+#card-one {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url("https://media.tenor.com/xMlPK65lad4AAAAd/r2d2-star-wars.gif");
+}
+
+#card-two {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url("https://media.tenor.com/vo0_CPGKP7EAAAAC/star-wars.gif");
+}
+
+#card-two:hover {
+  background-image: url("https://media.tenor.com/fHC-d9SfRDwAAAAd/meme-star-wars.gif");
+}
+
+#card-tree {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url("https://media.tenor.com/xeJ53uE1jvcAAAAd/happy-dance.gif");
+}
+
+#card-tree:hover {
+  background-image: url("https://media.tenor.com/0mNBx_xpJFEAAAAM/star-wars-cat-vs-dog.gif");
+}

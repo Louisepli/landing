@@ -1,0 +1,10 @@
+.banner {
+  background-image: url("../../images/star.png");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+}
+
+.banner h1 {
+  text-shadow: rgb(255, 0, 0) 1px 0 10px;
+}
